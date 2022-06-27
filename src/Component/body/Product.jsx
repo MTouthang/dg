@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Container, CardGroup, CardImg, Card } from 'reactstrap'
 
 const Product = () => {
@@ -33,7 +34,7 @@ const Product = () => {
                 />
             </Card>
         </CardGroup>
-        <p className='text-end mt-3'> <u> View more works ...</u></p>
+        <p className='text-end mt-3'> <Link to="/products"> View more works ...</Link></p>
     </Container>
   )
 }
