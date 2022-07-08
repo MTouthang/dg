@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/dg/static/css/main.83db5770.css",
+    "main.js": "/dg/static/js/main.da9f1603.js",
+    "static/media/advRealism2.jpg": "/dg/static/media/advRealism2.042525117f3a4bba569e.jpg",
+    "static/media/artForKids4.jpg": "/dg/static/media/artForKids4.02063354fd391000b306.jpg",
+    "static/media/basicRealism.jpeg": "/dg/static/media/basicRealism.e2fe4dea512f5d9602fa.jpeg",
+    "static/media/portrait.png": "/dg/static/media/portrait.2b2ba6346d9451380412.png",
+    "static/media/white.png": "/dg/static/media/white.41691208840db3b159bf.png",
+    "index.html": "/dg/index.html",
+    "main.83db5770.css.map": "/dg/static/css/main.83db5770.css.map",
+    "main.da9f1603.js.map": "/dg/static/js/main.da9f1603.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83db5770.css",
+    "static/js/main.da9f1603.js"
+  ]
+}
