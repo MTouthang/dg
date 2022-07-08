@@ -12,7 +12,12 @@ const Footer = () => {
         tag="footer"
         className="bg-dark text-center text-secondary  mt-5"
     >
-      <p className='pt-3'> Please contact me for any kind of query or work</p>
+      <p className='pt-3'> {`I'm a self-taught Realism artist specialising in Graphite and Charcoal drawings.
+       I started art tutoring online a year ago and collaborated with e-learning platforms such as BitClass, MadCaps & VividTrails for art courses and workshops.
+       I received my first national art award, the 'Bhartiya Kalaa Bhushan Award' from Indian Art Fair, Mumbai in 2021. 
+       Am also the recipient of KALANAND Grant from the Prafulla Dahanukar Art Foundation in 2022 at the Jehangir Art Gallery, Mumbai.`}
+</p>
+      <h5 className='pt-3'> Please contact me for any kind of query or work</h5>
       <Button > 
         <a href="mailto:someone@gmail.com"
           className="text-decoration-none text-white"

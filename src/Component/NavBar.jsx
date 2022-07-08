@@ -2,6 +2,8 @@ import React, {useState} from 'react'
 import {Link} from "react-router-dom"
 import { Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink, Nav, Collapse } from 'reactstrap'
 
+import dg from "../assets/white.png"
+
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false)
   return (
@@ -11,8 +13,10 @@ const NavBar = () => {
       dark
       sticky="top"
       >
-      <NavbarBrand tag={Link} to="/" >
-        DG
+      <NavbarBrand tag={Link} to="/"  className="animate__animated animate__bounce" >
+         <img src={dg} style={{width:33, height: 33}} alt="dg logo pictures"
+         
+        /> 
       </NavbarBrand>
       <NavbarToggler onClick={() => setIsOpen(!isOpen)} /> 
         <Collapse  isOpen= {isOpen} navbar>

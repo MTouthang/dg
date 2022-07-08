@@ -5,11 +5,11 @@ import Product from './body/Product'
 import Intro from './intro/Intro'
 
 
-const Home = () => {
+const Home = ({courses}) => {
   return (
     <>
         <Intro />
-        <Course />
+        <Course courses={courses}/>
         <Award />
         <Product />
     </>
